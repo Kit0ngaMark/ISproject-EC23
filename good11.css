@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+    color: #007BFF;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: rgb(255, 255, 255)
+}
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.btn {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+.btn-danger {
+    background-color: red;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar a {
+        margin: 10px 0;
+    }
+}
